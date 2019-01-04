@@ -135,3 +135,17 @@ p {
 .amazon-text {
     margin-right: 20px;
 }
+
+#copyright {
+    color: #ffffff;
+    font-family: GandhiSansRegular;
+    text-transform: uppercase;
+    text-shadow: 0px 2px #000000;
+    width: 100%;
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height: 25px;
+    width:100%;
+}
