@@ -1,0 +1,71 @@
+@font-face {
+  font-family: GandhiSansRegular;
+  src: url(fonts/GandhiSans-Regular.otf);
+}
+
+@font-face {
+  font-family: GandhiSansBold;
+  src: url(fonts/GandhiSans-Bold.otf);
+}
+
+@font-face {
+  font-family: GandhiSerifRegular;
+  src: url(fonts/GandhiSerif-Regular.otf);
+}
+
+html { 
+  background: url(cover.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    padding: 0 calc(50% - 400px);
+    margin: 0;
+    outline: none;
+    cursor: default;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+.header {
+    background-color: #000000;
+    margin-top: 100px;
+}
+
+h1 {
+    color: #FEEB00;
+    font-family: GandhiSansBold;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: GandhiSansRegular;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: GandhiSansRegular;
+}
+
+.synopsis {
+    margin-top: 50px;
+    background-color: #000000;
+    font-size: 16pt;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.header-text {
+    margin-top: 20px;
+}
+
+.text-author {
+    font-size=30pt;
+}
